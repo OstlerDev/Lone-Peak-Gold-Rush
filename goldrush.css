@@ -1,19 +1,10 @@
-/* CSS declarations go here */
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: 
- * Version: 1.0
- * URL: http://alvarez.is
- */
-
 body {
   background-color: #f2f2f2;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
     color: #555;
+    min-width:1250px;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
