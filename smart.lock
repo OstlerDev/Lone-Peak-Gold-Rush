@@ -1,0 +1,35 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "admin": {}
+    },
+    "packages": {
+      "admin": {
+        "git": "https://github.com/Pent/meteor-admin.git",
+        "tag": "v0.1.8",
+        "commit": "20ce12e7f419cc5962fd01677a513c2617334aec"
+      },
+      "bootstrap3-less": {
+        "git": "https://github.com/eprochasson/bootstrap3-less",
+        "tag": "v0.1.4",
+        "commit": "23ec918f8377b15b22cba33e13b717214235c88a"
+      },
+      "font-awesome": {
+        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
+        "tag": "v3.2.1",
+        "commit": "38bdfff72dfb8857b272f9a9b056045d6a015489"
+      },
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.6.0",
+        "commit": "c63e92d24c8210e2304ff5fed1b5c463394aeaf6"
+      },
+      "alert": {
+        "git": "https://github.com/Pent/meteor-alert.git",
+        "tag": "v0.0.3",
+        "commit": "876e0a8beff92b373a719a0beb8c45f04b696a79"
+      }
+    }
+  }
+}
