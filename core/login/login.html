@@ -1,0 +1,18 @@
+<template name="login">
+
+
+	<div class="container">
+		<center>
+			{{#if currentUser}}
+			<h3>You are already logged in silly!</h3>
+			<a href="/logout">Logout?</a>
+			{{else}}
+			<h1>Login</h1>
+			Username: <input type="text" class="name"></input><br />
+			Password: <input type="password" class="password"></input><br />
+			<button type="button" class="btn btn-success login">Login</button>
+			{{/if}}
+		</center>
+	</div>
+
+</template>

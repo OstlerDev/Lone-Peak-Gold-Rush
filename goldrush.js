@@ -1,4 +1,8 @@
-
+Router.map(function () {
+  this.route('home', {
+    path: '/' // match the root path
+  });
+});
 
 if (Meteor.isClient) {
 Meteor.subscribe("goldRush");

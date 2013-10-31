@@ -1,5 +1,8 @@
 {
   "packages": {
-    "admin": {}
+    "iron-router": {},
+    "bootstrap3-less": {},
+    "font-awesome": {},
+    "bootstrap-3": {}
   }
 }
