@@ -7,7 +7,7 @@ Router.map(function () {
 if (Meteor.isClient) {
 Meteor.subscribe("goldRush");
   Template.home.total = function () {
-    return 'null';
+    return '0.00';
     //return GoldRush.find({total: 1});
   }
 }
