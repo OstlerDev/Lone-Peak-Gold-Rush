@@ -24,6 +24,18 @@ p {
     margin-bottom: 25px;
 }
 
+.red {
+	color: #FE2E2E;
+}
+
+h2.total {
+	text-align: center;
+	color: #fff;
+	padding-top: 100px;
+	font-weight: bold;
+	font-size: 60px;
+}
+
 .centered {
     text-align: center;
 }
@@ -165,7 +177,7 @@ input[type="submit"] {
 	padding-top:20px;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 500px;
+	height: 500px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
