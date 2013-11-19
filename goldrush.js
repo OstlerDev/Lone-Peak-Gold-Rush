@@ -4,11 +4,21 @@ Router.map(function () {
   });
 });
 
+var total = 1659;
+var incTotal = 0;
+
 if (Meteor.isClient) {
 Meteor.subscribe("goldRush");
+
   Template.home.total = function () {
-    return '0.00';
+    //setInterval(function () { if(incTotal < total) incTotal + total/100; }, 50);
+    //if(incTotal < total) incTotal += total/100;
+    return total;
     //return GoldRush.find({total: 1});
+  }
+
+  Template.home.rendered = function() {
+    $('.counter').counter();
   }
 }
 
