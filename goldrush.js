@@ -4,7 +4,7 @@ Router.map(function () {
   });
 });
 
-var total = 1659;
+var total = 4937;
 var incTotal = 0;
 
 if (Meteor.isClient) {

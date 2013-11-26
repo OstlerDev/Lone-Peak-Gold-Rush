@@ -27,9 +27,9 @@
         while(i >= 0) {
             var part = data.parts[i];
             var incAmount;
-            if (part.value < 1000){
-                incAmount = 11;
-            } else if (part.value < 1500) incAmount = 3;
+            if (part.value < 4700){
+                incAmount = 17;
+            } else if (part.value < 4900) incAmount = 3;
             else incAmount = 1;
             part.value += data.down ? -1 : incAmount;
             if (data.down && part.value < 0) {
