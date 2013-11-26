@@ -13,24 +13,24 @@ Clone the git repository to your local computer then cd into the directory where
 ####Installing Meteorite
 Once you are in the directory you will need to install meteorite if you have not already. Meteorite can be installed using NPM. Below is a sample command to install meteorite.
 
-'''
+```
 $ npm install -g meteorite
-'''
+```
 ####Your first startup
 Once you have Meteorite installed you just need to run the 'mrt' command. What that command will do is pull down all of the packages that the website is using.
 
 ###Pushing to a live website
 We currently use the free deployment system run by Meteor. An example of the command that we use can be found below.
 
-'''
+```
 meteor deploy lonepeakgoldrush.com
-'''
+```
 
 You can password protect your website so that people cannot push to it by using this command
 
-'''
+```
 meteor deploy lonepeakgoldrush.com --password
-'''
+```
 
 If you have not already set up a password it will ask you to set it, if you have set up a password then you will need to enter it so that you can change it.
 
